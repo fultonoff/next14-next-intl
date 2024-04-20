@@ -1,0 +1,37 @@
+{
+    "Index": {
+      "title": "Hello world!"
+    },
+    
+      "Nav": {
+       
+        "tourism": {
+          "name": "Tourism",
+          "url": "/tourism",
+          "id": 2
+        },
+        "midsummerSail": {
+          "name": "MidsummerSail",
+          "url": "/midsummerSail",
+          "id": 3
+        },
+        "events": {
+          "name": "Events",
+          "url": "/events",
+          "id": 4
+        },
+        "contact": {
+          "name": "Contact",
+          "url": "/contact",
+          "id": 4
+        }
+       
+      },
+      "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, de {sv Swidish} en {🇺🇸 English} other {Unknown}}"
+      }
+    
+  }
+
+

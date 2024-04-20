@@ -1,0 +1,35 @@
+{
+  "Index": {
+    "title": "Hej!"
+  },
+  
+    "Nav": {
+      
+      "tourism": {
+        "name": "Turism",
+        "url": "/tourism",
+        "id": 2
+      },
+      "midsummerSail": {
+        "name": "MidsummerSail",
+        "url": "/midsummerSail",
+        "id": 3
+      },
+      "events": {
+        "name": "Evenemang",
+        "url": "/events",
+        "id": 4
+      },
+      "contact": {
+        "name": "Kontakt",
+        "url": "/contact",
+        "id": 4
+      }
+     
+    },
+    "LocaleSwitcher": {
+      "label": "Sprache ändern",
+      "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+    }
+  
+}
