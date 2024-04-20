@@ -4,7 +4,6 @@ import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import Nav from "./_components/nav/Nav";
 
-const inter = Inter({ subsets: ["latin"] });
 const dmSans = DM_Sans({subsets:['latin'], weight:['100', '200', '300', '400', '500', '700']});
 
 export const metadata = {
