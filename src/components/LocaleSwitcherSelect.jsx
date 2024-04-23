@@ -31,13 +31,15 @@ export default function LocaleSwitcherSelect() {
     const nextLocale = value;
 
     startTransition(() => {
-      router.replace(
-        // @ts-expect-error -- TypeScript will validate that only known `params`
-        // are used in combination with a given `pathname`. Since the two will
-        // always match for the current route, we can skip runtime checks.
-        { pathname, locale },
-        { locale: nextLocale }
-      );
+      // router.replace(
+      //   // @ts-expect-error -- TypeScript will validate that only known `params`
+      //   // are used in combination with a given `pathname`. Since the two will
+      //   // always match for the current route, we can skip runtime checks.
+      //   { pathname, locale },
+      //   { locale: nextLocale }
+      // );
+      router.push({ pathname, params: params }, { locale: nextLocale });
+
     });
   }
 
